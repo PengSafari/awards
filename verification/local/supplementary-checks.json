@@ -1,0 +1,28 @@
+{
+  "recorded_at_utc": "2026-09-18T10:42:44.075981+00:00",
+  "rup_check": {
+    "command": "python3 scripts/check_rup.py",
+    "exit_code": 0,
+    "verified": true,
+    "additions": 2123,
+    "deletions": 1055,
+    "seconds": 2.495048042,
+    "formal_lean_proof": false
+  },
+  "generator_round_trip": {
+    "procedure": "Copy packaged data/ and generator to a temporary directory, regenerate, then compare every generated Lean file and metadata with this package",
+    "exit_code": 0,
+    "byte_identical_lean_files": 33,
+    "byte_identical_metadata": true
+  },
+  "local_proof_preservation": {
+    "byte_identical_lean_files": 38,
+    "includes": [
+      "Jsp746.lean",
+      "Audit.lean",
+      "all Jsp746/**/*.lean"
+    ],
+    "comparison": "Previously verified local development to this standalone package"
+  },
+  "scope": "Supplementary contributor-operated checks; the formal result is certified by the Lean build and fresh kernel replay recorded in receipt.json"
+}

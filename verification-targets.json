@@ -1,0 +1,16 @@
+{
+  "module": "Jsp746",
+  "scope": "Independent positive Schur triple in every triangle-free integer graph; exact finite threshold 18, including a 17-vertex counterexample",
+  "theorems": [
+    "Jsp746.sat_refutation",
+    "Jsp746.natural_graph",
+    "Jsp746.integer_graph",
+    "Jsp746.finite_upper",
+    "Jsp746.finite_lower",
+    "Jsp746.finite_threshold",
+    "Jsp746.witness_noTriangle",
+    "Jsp746.witness_noSchurTriple",
+    "Jsp746.seventeen_counterexample",
+    "Jsp746.witness_edge_count"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "cnf_sha256": "260b7c50fac4fcc4525f7253eb37a8750bf744cff5bb41e92a314cdea1ccab45",
+  "trace_sha256": "d6aa5a67c87ab75baea1853c4498e217803255db49c0425329a52b4e91f53226",
+  "input_clauses": 888,
+  "trace_additions": 2123,
+  "used_initial_clauses": 840,
+  "used_learned_clauses": 1821,
+  "propagation_steps": 57385,
+  "chunk_files": 31,
+  "last_clause": 3010
+}

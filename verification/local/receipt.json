@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-18T10:41:48.201333+00:00",
+  "lean_version": "Lean (version 4.30.0, arm64-apple-darwin24.6.0, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)",
+  "scope": "Independent positive Schur triple in every triangle-free integer graph; exact finite threshold 18, including a 17-vertex counterexample",
+  "clean_project_build": true,
+  "dependency_cache_reused": true,
+  "github_actions": false,
+  "checkout_commit": null,
+  "mathlib_revision": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+  "source_sha256": {
+    "Jsp746.lean": "e773c01c577e6f19345bb41a412ee469d962a370b09c6ea62e8f7fbaeb3ae14a",
+    "Jsp746/Certificate/Initial.lean": "537499c0a5bbf43836979eed4d7e144d22e7e2618c9003c5a435a063c7cb6c30",
+    "Jsp746/Certificate/Steps00.lean": "e9b32788c061da60e90f2fa14591a0fe77c1e6ef5cada30d3df9b65a4da8aa32",
+    "Jsp746/Certificate/Steps01.lean": "cd2c65afbc9b96175555f1b0c7b449cc278273b37e7a13c958736a8766762b39",
+    "Jsp746/Certificate/Steps02.lean": "54e9d95df8dfca01fe7058e20f106c08cad84f528c9288cbc9e963f8774f8648",
+    "Jsp746/Certificate/Steps03.lean": "33fa9e551378a03e72cf9b11cc1d0cdf8731136ae3c814295c81d2f7d49a007c",
+    "Jsp746/Certificate/Steps04.lean": "875e705a051277a264465b657f141393f44c0febeea8497d37aafd01b37a7042",
+    "Jsp746/Certificate/Steps05.lean": "7ea0d4c5b744d662e5726172efd0fb320ca75a651d6588132ed1c5cafbc78e84",
+    "Jsp746/Certificate/Steps06.lean": "b4a7f7229a4cbd4e5b8a83300904be164b9d492a7856c917552b684c0e726a00",
+    "Jsp746/Certificate/Steps07.lean": "780ab47669919280ec78a356694ed899052d3b84d9a18615c87b2ef7555a23be",
+    "Jsp746/Certificate/Steps08.lean": "ebeed0ba4e4f41944f009d89810c1300e62a46b252cbbebf8d7d710e0f51c9ce",
+    "Jsp746/Certificate/Steps09.lean": "9a1c5df6a10dcce14755a4b38b78f7019763fc5728816bf0ca3a092e10c7080a",
+    "Jsp746/Certificate/Steps10.lean": "921bfa6e123c6c990c15c112714530240086457c63404dc3d9f1037ddbcba7d2",
+    "Jsp746/Certificate/Steps11.lean": "74c3c3cd08c60a25e1d318bb51cf91590299079581f26e36219b83662ccd4b7d",
+    "Jsp746/Certificate/Steps12.lean": "69d256408fc1f410e4a2bcf4920ed6fe1d09a85614417f290fc0dd7ec1cf56b3",
+    "Jsp746/Certificate/Steps13.lean": "d37a727b1eb5ced4e6cc89f9d5a6f6978bc9f5a1e881f6427c4efdba4101598b",
+    "Jsp746/Certificate/Steps14.lean": "e3cb9eea6ab4dbec865c34accfd6162e6de0cc368312c7238d8be4f168e764fb",
+    "Jsp746/Certificate/Steps15.lean": "d3fc28be793f0fb69a3c46e18287adec0842c968ad23481ae3484ad0723e7621",
+    "Jsp746/Certificate/Steps16.lean": "623f4f77203e81c7d3a8771e3826331e134f1b530606735e9c45a790a18bce16",
+    "Jsp746/Certificate/Steps17.lean": "d1b9beca3410dff8be332a565948e688118a17fad7e53d49be7bd20b2402f003",
+    "Jsp746/Certificate/Steps18.lean": "ae04d2c93f7682df09bdd8e0a46b11efa4b9585cf24c870a5025b888e221f7b2",
+    "Jsp746/Certificate/Steps19.lean": "2c0372b22ca00842dae07e203c7298cf4f8ecbdcef53b7f56124e0684b8229d3",
+    "Jsp746/Certificate/Steps20.lean": "a21829813e12322e86963da08e22c531c01c62b097261389e0003fc21d124d52",
+    "Jsp746/Certificate/Steps21.lean": "4df3ea0e508ea5ae0d50832ea166a21f880f60cc8bb9740bb89cbddcc782e98f",
+    "Jsp746/Certificate/Steps22.lean": "829f0c58b5534c666ca6b4fc90ce686bee772d44c13be3db153181e7dc8f4cce",
+    "Jsp746/Certificate/Steps23.lean": "39f03dec4de09505be187a2f9f7b1832b7eafd28b7115f2dc2fd3cf13fd49c29",
+    "Jsp746/Certificate/Steps24.lean": "f7478dd63e3408052dba5898da1f2006be64b9b6a03a6ce81c49085f8f7d05af",
+    "Jsp746/Certificate/Steps25.lean": "ba3bac211a597b274a9039b7972fa6d625101772ce7ea530808523930c7ed657",
+    "Jsp746/Certificate/Steps26.lean": "765778b0a57d065dbccfcb29b78cc7ff580e7eacecc2cb042f84ebabe323fefd",
+    "Jsp746/Certificate/Steps27.lean": "6d77fe07b7ebf3d4226d3d220c08dbff1e51a5d91a9411c89b2625ed85f6a3c4",
+    "Jsp746/Certificate/Steps28.lean": "318d7c4bf66b626e9d2d7aa10b0786615ef608e6252e6ef991887f39dd386380",
+    "Jsp746/Certificate/Steps29.lean": "5a11dc0b3442081e41918d1cd64f0483b2a9c6bfa62cec9049cd5d09e30628b8",
+    "Jsp746/Certificate/Steps30.lean": "78c76a5220e51612f656323f8315ec290f400668ecb1852f3af393d9e9af3c51",
+    "Jsp746/Graph.lean": "0496f81281cbd2abead583a316560457611c2098be8f02d6e10fc7887dea82fb",
+    "Jsp746/Main.lean": "d3cac5e794c5ac3874f630131bbb36b9fa0ce2513132caf2d681d83b5dada5ba",
+    "Jsp746/Refutation.lean": "5f70cc6d3cb305319aa00b5b0fc3865e53bbd7217c72ec51583f667d643cf04a",
+    "Jsp746/Witness.lean": "2b71a399e130ebec0de423e449e110a64b12f3afb3dca3f91903b020e43bf801",
+    "Audit.lean": "c9b628ce96d94eb8479d1645774e9c87b2c01f118ea0475d1b297eb6d4246b37",
+    "lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+    "lakefile.toml": "ff7d25751d08b13d907ae0c3313dcd5640db5beb3d98cffa7fec0682436d6234",
+    "lake-manifest.json": "c6c8e5e6c7622aac03eed043d97ff54cdbfea11562fdee88f095f485072e6962",
+    "verify.py": "e9dfcd23dfb804bbb8d39b1debb32f8c7364beaf5044bfccd1565fa4098fca04",
+    "verification-targets.json": "5907b8fd8d457016d655ed128e5da17e32ba0a06709e06794937e500691fc2a2",
+    "README.md": "dac27af80b981e74bc97ded584ac92b9d697410a4fa9ecde29eca318435ca348",
+    "NOTICE.md": "167254b743ffc752f638ddc316ac2f19ca73e9be589c610196b1d1b4a62d0daf",
+    "LICENSE": "ea6accc9490d86aaa6cde2377630e035ebc37fb1892027443266ac92c5bf4655",
+    ".gitignore": "c2f6ef06eab85b28a9a95d346982f1a39df0e1f6812a5045cf62b98258e5aca9",
+    "scripts/README.md": "4f87a6459cfc549f1b0c11362e36da385a1fb42eb62083ed62ca4fd9c5b9bd2b",
+    "scripts/check_data.py": "cd3254c3a0f2e0f42402d6148ee22458f146e8fa3aedafc69e3f0d1b695bba8f",
+    "scripts/check_rup.py": "de54aacd86467416bdbab872838f6d7ac224826547bc51ac1eb8bf71c4492bc3",
+    "scripts/generate_refutation.py": "59f6442740ee0190e3588a72093b463f292552df0c9fe7abf2b22dde06fdbf79",
+    "scripts/refutation-generation.json": "838e489ca1034f0809eb75680a2596459b0dd6edd930e4c66589a4b2178f34ca",
+    "scripts/search.py": "e5b74a30fe4897e17946318f324a64c4205001c2cfac9cce1de2ec89e49f1026",
+    "data/n17.cnf": "af5a0d50ec2d99e027b30c63f256abd791212fd72805bca224c25abb4fedfcd8",
+    "data/n18.cnf": "260b7c50fac4fcc4525f7253eb37a8750bf744cff5bb41e92a314cdea1ccab45",
+    "data/n18.drat": "d6aa5a67c87ab75baea1853c4498e217803255db49c0425329a52b4e91f53226",
+    "data/results.json": "995f3ff60aed8e88b9a3a2fe390c8fe32414285ad58e0b61642af7115cd9ef00",
+    "data/witness.json": "d9052ee4009ce15a75dbec2f2138f54b47958938de593d482f3604e092fe3280",
+    ".github/workflows/verify.yml": "a57042891ce1ff5f94d11f385a070535fee5a1b77c116f514ba01f7a7fd6e8a9"
+  },
+  "axioms": {
+    "Jsp746.sat_refutation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.natural_graph": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.integer_graph": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.finite_upper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.finite_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.finite_threshold": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.witness_noTriangle": [
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.witness_noSchurTriple": [
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.seventeen_counterexample": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp746.witness_edge_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "kernel_replay": "Official Lean kernel, fresh environment, all imported and local declarations; not a second independent implementation",
+  "source_scan": "No sorry, admit, native_decide, custom axiom or unsafe declaration in proof sources",
+  "python_checks": "Both CNF encodings, saved input hashes, and the 42-edge witness; corroborating evidence only"
+}
