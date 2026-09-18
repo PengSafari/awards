@@ -1,0 +1,11 @@
+# Attribution and provenance
+
+- **Mathematical result:** Thomas Stoll, *On Families of Nonlinear Recurrences Related to Digits*, Journal of Integer Sequences 8 (2005), Article 05.3.2, Theorem 1.3. Stoll's paper credits the earlier Graham–Pollak and Rabinowitz–Gilbert results. The mathematical construction and proof are not new here.
+- **Formalization project contributor and repository owner:** [PengSafari](https://github.com/PengSafari). PengSafari selected the problem, directed the exploratory project, and authorized the implementation and public submission.
+- **Implementation assistance:** OpenAI Codex agents wrote the Lean development and verification scripts, performed machine checks, and reviewed the statement correspondence in a separate agent pass. This is disclosed AI assistance; PengSafari is not presented as having manually written or independently human-reviewed all proof code.
+- **Prior formalization inspected:** [TheJustinSunPrize/awards PR 293](https://github.com/TheJustinSunPrize/awards/pull/293), including its linked `JSP000391.lean` and `JSP000391Main.lean` at commit `14e5155e68554de4e053e4aacd77095a93e96dd4`, was read during problem selection. That contribution is by ketianzhang1-lang with disclosed OpenAI ChatGPT/Codex assistance. This project subsequently implemented the paper's proof in its own modules. It does not import or copy that project's proof files and does not claim a development uninfluenced by having inspected prior work.
+- **Independent verifier:** none claimed. Local and GitHub Actions checks are contributor-run, reproducible evidence, not independent human review or organizer certification.
+
+The proof files are byte-for-byte copies of this project's previously verified local development, repackaged here with public Git dependency pins and a portable verification script. The core uses paired recurrence transitions and inequalities after clearing a positive denominator. Digits are reconstructed by a finite weighted sum, followed by convergence to the original unnormalized target.
+
+No new mathematical discovery, first-formalization priority, exclusive credit, confirmed eligibility, or award entitlement is claimed. Standard Lean and Mathlib dependencies retain their own licenses and are not vendored. Stoll's paper and the earlier formalization are linked, not redistributed or relicensed.

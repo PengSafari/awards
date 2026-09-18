@@ -1,0 +1,6 @@
+.lake/
+.elan/
+__pycache__/
+verification/current/
+*.pyc
+.DS_Store
