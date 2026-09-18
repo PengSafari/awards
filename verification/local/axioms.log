@@ -1,0 +1,11 @@
+Jsp391.jsp_000391 (g : ℕ) (w e : ℝ) (hg : 2 ≤ g) (hw : 0 < w) (he : Jsp391.IsAdmissible g e) :
+  (∀ (n : ℕ), Jsp391.output g w e n = Jsp391.digit g (Jsp391.normalized g w) n) ∧
+    (∀ (n : ℕ), 0 ≤ Jsp391.output g w e n ∧ Jsp391.output g w e n < ↑g) ∧
+      1 ≤ Jsp391.output g w e 0 ∧ Filter.Tendsto (Jsp391.reconstruction g w e) Filter.atTop (nhds w)
+'Jsp391.jsp_000391' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp391.extraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp391.trajectory_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp391.normalized_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp391.partialSum_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp391.reconstruction_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp391.admissible_choice' depends on axioms: [propext, Classical.choice, Quot.sound]
