@@ -1,0 +1,18 @@
+Jsp690.jsp_000690 : ∃ H, Jsp690.Uniform H 3 ∧ Jsp690.Critical3 H ∧ ∀ v ∈ H.vertices, 7 ≤ Jsp690.Degree H v
+Jsp690.jsp_000690_nine_vertices :
+  ∃ H,
+    H.vertices.card = 9 ∧
+      H.edges.card = 22 ∧
+        Jsp690.Uniform H 3 ∧
+          Jsp690.Critical3 H ∧ (∀ v ∈ H.vertices, 7 ≤ Jsp690.Degree H v) ∧ ∃ v ∈ H.vertices, Jsp690.Degree H v = 7
+Jsp690.witness_actual_vertex_critical :
+  Jsp690.VertexColorable Jsp690.witness 3 ∧
+    ¬Jsp690.VertexColorable Jsp690.witness 2 ∧
+      ∀ (G : Jsp690.Hypergraph Jsp690.Vertex),
+        Jsp690.IsProperSubhypergraph G Jsp690.witness → Jsp690.VertexColorable G 2
+'Jsp690.jsp_000690' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp690.jsp_000690_nine_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp690.witness_actual_vertex_critical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp690.witness_not_two_colorable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp690.witness_edge_deletion_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp690.colorable_of_proper' depends on axioms: [propext, Classical.choice, Quot.sound]
