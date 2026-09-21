@@ -1,0 +1,529 @@
+{
+  "problem_id": "JSP-000690",
+  "erdos_problem": 834,
+  "attribution": {
+    "mathematical_author": "Ruiliang Li",
+    "primary_source": "https://arxiv.org/html/2512.24850v1",
+    "construction_location": "Theorem 1.2, Section 4, equation (5)",
+    "three_coloring_location": "Section 4.4",
+    "deletion_certificates": "Re-derived independently by exhaustive enumeration in this task",
+    "status": "Known mathematical construction; this JSON supports Python cross-checking. The complete Lean formalization is in Jsp690.lean."
+  },
+  "vertices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "edges": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      9
+    ],
+    [
+      1,
+      3,
+      8
+    ],
+    [
+      1,
+      4,
+      6
+    ],
+    [
+      1,
+      4,
+      8
+    ],
+    [
+      1,
+      4,
+      9
+    ],
+    [
+      1,
+      5,
+      7
+    ],
+    [
+      1,
+      5,
+      8
+    ],
+    [
+      1,
+      5,
+      9
+    ],
+    [
+      1,
+      6,
+      7
+    ],
+    [
+      2,
+      3,
+      6
+    ],
+    [
+      2,
+      3,
+      7
+    ],
+    [
+      2,
+      4,
+      9
+    ],
+    [
+      2,
+      5,
+      9
+    ],
+    [
+      2,
+      6,
+      7
+    ],
+    [
+      3,
+      4,
+      8
+    ],
+    [
+      3,
+      5,
+      8
+    ],
+    [
+      3,
+      6,
+      7
+    ],
+    [
+      4,
+      6,
+      8
+    ],
+    [
+      4,
+      6,
+      9
+    ],
+    [
+      5,
+      7,
+      8
+    ],
+    [
+      5,
+      7,
+      9
+    ]
+  ],
+  "three_coloring": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0,
+    "6": 1,
+    "7": 2,
+    "8": 1,
+    "9": 1
+  },
+  "edge_deletion_certificates": [
+    {
+      "deleted_edge": [
+        1,
+        2,
+        3
+      ],
+      "blue_vertices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        2,
+        9
+      ],
+      "blue_vertices": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        3,
+        8
+      ],
+      "blue_vertices": [
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        4,
+        6
+      ],
+      "blue_vertices": [
+        3,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        4,
+        8
+      ],
+      "blue_vertices": [
+        3,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        4,
+        9
+      ],
+      "blue_vertices": [
+        2,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        5,
+        7
+      ],
+      "blue_vertices": [
+        3,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        5,
+        8
+      ],
+      "blue_vertices": [
+        3,
+        4,
+        7,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        5,
+        9
+      ],
+      "blue_vertices": [
+        2,
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        6,
+        7
+      ],
+      "blue_vertices": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "deleted_edge": [
+        2,
+        3,
+        6
+      ],
+      "blue_vertices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "deleted_edge": [
+        2,
+        3,
+        7
+      ],
+      "blue_vertices": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "deleted_edge": [
+        2,
+        4,
+        9
+      ],
+      "blue_vertices": [
+        2,
+        4,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        2,
+        5,
+        9
+      ],
+      "blue_vertices": [
+        2,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        2,
+        6,
+        7
+      ],
+      "blue_vertices": [
+        2,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        3,
+        4,
+        8
+      ],
+      "blue_vertices": [
+        3,
+        4,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        3,
+        5,
+        8
+      ],
+      "blue_vertices": [
+        3,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        3,
+        6,
+        7
+      ],
+      "blue_vertices": [
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        4,
+        6,
+        8
+      ],
+      "blue_vertices": [
+        2,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "deleted_edge": [
+        4,
+        6,
+        9
+      ],
+      "blue_vertices": [
+        3,
+        4,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "deleted_edge": [
+        5,
+        7,
+        8
+      ],
+      "blue_vertices": [
+        2,
+        4,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "deleted_edge": [
+        5,
+        7,
+        9
+      ],
+      "blue_vertices": [
+        3,
+        4,
+        5,
+        7,
+        9
+      ]
+    }
+  ],
+  "vertex_deletion_certificates": [
+    {
+      "deleted_vertex": 1,
+      "blue_vertices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 2,
+      "blue_vertices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 3,
+      "blue_vertices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 4,
+      "blue_vertices": [
+        3,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 5,
+      "blue_vertices": [
+        3,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 6,
+      "blue_vertices": [
+        3,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 7,
+      "blue_vertices": [
+        3,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 8,
+      "blue_vertices": [
+        3,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "deleted_vertex": 9,
+      "blue_vertices": [
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  ]
+}

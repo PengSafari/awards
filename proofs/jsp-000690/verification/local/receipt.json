@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-18T09:54:18.580686+00:00",
+  "lean_version": "Lean (version 4.30.0, arm64-apple-darwin24.6.0, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)",
+  "clean_project_build": true,
+  "github_actions": false,
+  "checkout_commit": null,
+  "source_sha256": {
+    "Jsp690.lean": "9c97d75a788332e90f6f2ccd855410da962c27c6c90da2c6dcccc76658ff08ab",
+    "Audit.lean": "fd4d1c43058808f5f474afd35cde16d8113aa0b34976756c6b5e6f072f3fb68e",
+    "lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+    "lakefile.toml": "5e27eeff14846cfd11db8d2d4ca2043433a0d04e5a664da2f8936fb236019063",
+    "lake-manifest.json": "e9e0f85333d8e4cb1e5b9ccf939feb3c43e8c627e25b59943a968e14a79df962",
+    "data/witness.json": "4eb6fe50e85d5dc9cb1f63f91319e1919a70d6e1ca8fff8e0cc33cd313977289",
+    "Jsp690/Basic.lean": "a3bd0b8812fe63d94b7ae0a0e192d99b90af63434af8102f3843459bf109c33a",
+    "Jsp690/Certificates.lean": "c9b63ef389669c950566d08937019d4b38ab04d196ac1643d7cef77e8e53d05f",
+    "Jsp690/Witness.lean": "f5171255d3d971492c04c9c920969dbdfaa61f62bb87c0fb02a140834a5da5c4",
+    "scripts/check_witness.py": "758af5cce3fa33f9cd1dac58ea35952a4980632700e4529df3c1041a01ba746a",
+    "scripts/verify.py": "a22e16db33926dbe1355119b9c320f03d2e1c47390d67d1dff669ea938f43bb3",
+    ".github/workflows/verify.yml": "a58313a83c292ef908a22c58c7f5137c91df25f519220adfd247ab107db6f4bf"
+  },
+  "axioms": {
+    "Jsp690.jsp_000690": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp690.jsp_000690_nine_vertices": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp690.witness_actual_vertex_critical": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp690.witness_not_two_colorable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp690.witness_edge_deletion_certificates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Jsp690.colorable_of_proper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "kernel_replay": "Official Lean kernel in fresh mode, including imported constants; not an independent implementation",
+  "scope": "Full chromatic JSP-000690, formalizing Ruiliang Li's known construction"
+}

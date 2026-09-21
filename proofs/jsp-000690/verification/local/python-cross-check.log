@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "vertices": 9,
+  "edges": 22,
+  "degrees": [
+    10,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "minimum_degree": 7,
+  "binary_colorings_checked": 512,
+  "proper_binary_colorings": 0,
+  "proper_three_coloring": true,
+  "edge_deletion_certificates_checked": 22,
+  "vertex_deletion_certificates_checked": 9,
+  "scope": "Python reproduction of an existing construction; not Lean verified",
+  "witness_sha256": "4eb6fe50e85d5dc9cb1f63f91319e1919a70d6e1ca8fff8e0cc33cd313977289"
+}
