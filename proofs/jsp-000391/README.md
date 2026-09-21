@@ -1,5 +1,7 @@
 # JSP-000391: Stoll's arbitrary-base digit recurrence in Lean
 
+> **Maintained in [PengSafari/awards](https://github.com/PengSafari/awards/tree/main/proofs/jsp-000391).** Run this project's commands from `proofs/jsp-000391/`. The [root matrix workflow](../../.github/workflows/verify-proofs.yml) verifies all three projects; the workflow YAML retained below this folder belongs to its original standalone history. Original pinned commits and verification records are preserved; see [migration and provenance](../../docs/proof-consolidation.md).
+
 This repository formalizes **Theorem 1.3 of Thomas Stoll (2005)** for every integer base, positive real target, and admissible shift. It is a human-directed, AI-assisted formalization project by **PengSafari and OpenAI Codex**. Stoll and the earlier authors retain credit for the mathematics.
 
 [Erdős problem 482](https://www.erdosproblems.com/482), corresponding to JSP-000391, asks for analogues of the Graham–Pollak digit recurrence for square roots and other algebraic numbers. The original question is open-ended. Our precise target is Stoll's all-positive-real, all-base construction, which in particular covers every positive algebraic real. The result is not new mathematics, and [PR 293](https://github.com/TheJustinSunPrize/awards/pull/293) already presents a complete formalization of the same theorem. See [NOTICE.md](NOTICE.md) for roles and prior-source inspection disclosure.

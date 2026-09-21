@@ -1,0 +1,78 @@
+name: Verify Lean proofs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "proofs/**"
+      - ".github/workflows/verify-proofs.yml"
+  pull_request:
+    paths:
+      - "proofs/**"
+      - ".github/workflows/verify-proofs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify ${{ matrix.problem }}
+    if: ${{ github.repository == 'PengSafari/awards' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - problem: JSP-000391
+            directory: proofs/jsp-000391
+            cache-command: >-
+              lake exe cache get
+              Mathlib.Algebra.Order.Floor.Ring
+              Mathlib.Analysis.SpecialFunctions.Log.Base
+              Mathlib.Analysis.SpecificLimits.Basic
+              Mathlib.Tactic.FieldSimp
+              Mathlib.Tactic.Linarith
+              Mathlib.Tactic.NormNum
+              Mathlib.Tactic.Positivity
+              Mathlib.Tactic.Ring
+            verify-command: python3 verify.py --clean
+          - problem: JSP-000690
+            directory: proofs/jsp-000690
+            cache-command: lake exe cache get Mathlib.Data.Fintype.Pi Mathlib.Data.Finset.Card
+            verify-command: python3 scripts/verify.py --clean
+          - problem: JSP-000746
+            directory: proofs/jsp-000746
+            cache-command: lake exe cache get Mathlib.Combinatorics.SimpleGraph.Clique Mathlib.Tactic.Tauto Mathlib.Tactic.NormNum
+            verify-command: python3 verify.py --clean
+    defaults:
+      run:
+        shell: bash
+        working-directory: ${{ matrix.directory }}
+    env:
+      LEAN_NUM_THREADS: 2
+      MATHLIB_NO_CACHE_ON_UPDATE: 1
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Install pinned Lean toolchain
+        uses: leanprover/lean-action@50fcf42d2e460296f1a34b402e990d1b24f8b596
+        with:
+          lake-package-directory: ${{ matrix.directory }}
+          auto-config: "false"
+          build: "false"
+          test: "false"
+          lint: "false"
+          use-mathlib-cache: "false"
+          use-github-cache: "false"
+      - name: Fetch the required Mathlib cache
+        run: ${{ matrix.cache-command }}
+      - name: Build, audit, replay, and cross-check
+        run: ${{ matrix.verify-command }}
+      - name: Save verification evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.problem }}-verification-${{ github.sha }}
+          path: ${{ matrix.directory }}/verification/current/
+          retention-days: 90

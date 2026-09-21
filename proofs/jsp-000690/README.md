@@ -1,5 +1,7 @@
 # JSP-000690: a complete Lean formalization
 
+> **Maintained in [PengSafari/awards](https://github.com/PengSafari/awards/tree/main/proofs/jsp-000690).** Run this project's commands from `proofs/jsp-000690/`. The [root matrix workflow](../../.github/workflows/verify-proofs.yml) verifies all three projects; the workflow YAML retained below this folder belongs to its original standalone history. Original pinned commits and verification records are preserved; see [migration and provenance](../../docs/proof-consolidation.md).
+
 This repository formalizes the **chromatic** interpretation of JSP-000690 / Erdős problem 834, using Ruiliang Li's known nine-vertex, twenty-two-edge hypergraph. It is a human-directed, AI-assisted formalization project by **PengSafari and OpenAI Codex**. The mathematical construction and original result remain credited to **Ruiliang Li**.
 
 No new mathematical discovery or first-formalization priority is claimed. Other same-scope submissions already exist, including [awards PR 35](https://github.com/TheJustinSunPrize/awards/pull/35) and [PR 845](https://github.com/TheJustinSunPrize/awards/pull/845). Source availability and successful checks do not constitute organizer approval or an award decision.

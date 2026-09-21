@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "consolidated_on": "2026-09-21",
+  "method": "git subtree add without squash; original commit identities retained",
+  "projects": [
+    {
+      "problem": "JSP-000391",
+      "path": "proofs/jsp-000391",
+      "original_repository": "https://github.com/PengSafari/jsp-000391-lean",
+      "original_commit": "8beb80bbe38682395de5afb7b33e7fa05ad72637",
+      "original_tree": "fe0e28cbeaec63b63c4f5880a232cea76bcf1ae1",
+      "upstream_pr": "https://github.com/TheJustinSunPrize/awards/pull/1163",
+      "original_ci": "https://github.com/PengSafari/jsp-000391-lean/actions/runs/35335965401",
+      "lean_source_sha256": {
+        "Audit.lean": "5d29183eb5583c79d955ca49c6a9003963f70218c98ed114980701247cb757fc",
+        "Jsp391/Core.lean": "51d29a676b6ee98fefe7edfb054c3f350ffbc825b13f62ee5c9724be029fabfb",
+        "Jsp391/Digits.lean": "2afc8349e5f7fe5fe987a1aaa6ecab5ecd68829609ddfba682b7487927df0f33",
+        "Jsp391/Main.lean": "40f8c6f091a648885cd53773c3cbd782e80e37482585257543cdba9aae0257e7",
+        "Jsp391/Normalization.lean": "2d939af76c0c25d7883bbb377bcef4d29cf2e3c86c9eb8d4a87c3157dfdff85b",
+        "Jsp391.lean": "05cddb289076ca260376550ed17ae60bb9962d62a90d96a0a0da44f108a5a4ac"
+      }
+    },
+    {
+      "problem": "JSP-000690",
+      "path": "proofs/jsp-000690",
+      "original_repository": "https://github.com/PengSafari/jsp-000690-lean",
+      "original_commit": "62265d838b82a761f5982e5aecc2659b52a39a86",
+      "original_tree": "ed026fe481c373e7aff620fce184b660727d300b",
+      "upstream_pr": "https://github.com/TheJustinSunPrize/awards/pull/1152",
+      "original_ci": "https://github.com/PengSafari/jsp-000690-lean/actions/runs/35332004703",
+      "lean_source_sha256": {
+        "Audit.lean": "fd4d1c43058808f5f474afd35cde16d8113aa0b34976756c6b5e6f072f3fb68e",
+        "Jsp690/Basic.lean": "a3bd0b8812fe63d94b7ae0a0e192d99b90af63434af8102f3843459bf109c33a",
+        "Jsp690/Certificates.lean": "c9b63ef389669c950566d08937019d4b38ab04d196ac1643d7cef77e8e53d05f",
+        "Jsp690/Witness.lean": "f5171255d3d971492c04c9c920969dbdfaa61f62bb87c0fb02a140834a5da5c4",
+        "Jsp690.lean": "9c97d75a788332e90f6f2ccd855410da962c27c6c90da2c6dcccc76658ff08ab"
+      }
+    },
+    {
+      "problem": "JSP-000746",
+      "path": "proofs/jsp-000746",
+      "original_repository": "https://github.com/PengSafari/jsp-000746-lean",
+      "original_commit": "bae8acde740268f444ec2a7695cf53c4ed65fc2b",
+      "original_tree": "882a7fadd6cef57c172801ef4e7e03add52fbd43",
+      "upstream_pr": "https://github.com/TheJustinSunPrize/awards/pull/1164",
+      "original_ci": "https://github.com/PengSafari/jsp-000746-lean/actions/runs/35336159399",
+      "lean_source_sha256": {
+        "Audit.lean": "c9b628ce96d94eb8479d1645774e9c87b2c01f118ea0475d1b297eb6d4246b37",
+        "Jsp746/Certificate/Initial.lean": "537499c0a5bbf43836979eed4d7e144d22e7e2618c9003c5a435a063c7cb6c30",
+        "Jsp746/Certificate/Steps00.lean": "e9b32788c061da60e90f2fa14591a0fe77c1e6ef5cada30d3df9b65a4da8aa32",
+        "Jsp746/Certificate/Steps01.lean": "cd2c65afbc9b96175555f1b0c7b449cc278273b37e7a13c958736a8766762b39",
+        "Jsp746/Certificate/Steps02.lean": "54e9d95df8dfca01fe7058e20f106c08cad84f528c9288cbc9e963f8774f8648",
+        "Jsp746/Certificate/Steps03.lean": "33fa9e551378a03e72cf9b11cc1d0cdf8731136ae3c814295c81d2f7d49a007c",
+        "Jsp746/Certificate/Steps04.lean": "875e705a051277a264465b657f141393f44c0febeea8497d37aafd01b37a7042",
+        "Jsp746/Certificate/Steps05.lean": "7ea0d4c5b744d662e5726172efd0fb320ca75a651d6588132ed1c5cafbc78e84",
+        "Jsp746/Certificate/Steps06.lean": "b4a7f7229a4cbd4e5b8a83300904be164b9d492a7856c917552b684c0e726a00",
+        "Jsp746/Certificate/Steps07.lean": "780ab47669919280ec78a356694ed899052d3b84d9a18615c87b2ef7555a23be",
+        "Jsp746/Certificate/Steps08.lean": "ebeed0ba4e4f41944f009d89810c1300e62a46b252cbbebf8d7d710e0f51c9ce",
+        "Jsp746/Certificate/Steps09.lean": "9a1c5df6a10dcce14755a4b38b78f7019763fc5728816bf0ca3a092e10c7080a",
+        "Jsp746/Certificate/Steps10.lean": "921bfa6e123c6c990c15c112714530240086457c63404dc3d9f1037ddbcba7d2",
+        "Jsp746/Certificate/Steps11.lean": "74c3c3cd08c60a25e1d318bb51cf91590299079581f26e36219b83662ccd4b7d",
+        "Jsp746/Certificate/Steps12.lean": "69d256408fc1f410e4a2bcf4920ed6fe1d09a85614417f290fc0dd7ec1cf56b3",
+        "Jsp746/Certificate/Steps13.lean": "d37a727b1eb5ced4e6cc89f9d5a6f6978bc9f5a1e881f6427c4efdba4101598b",
+        "Jsp746/Certificate/Steps14.lean": "e3cb9eea6ab4dbec865c34accfd6162e6de0cc368312c7238d8be4f168e764fb",
+        "Jsp746/Certificate/Steps15.lean": "d3fc28be793f0fb69a3c46e18287adec0842c968ad23481ae3484ad0723e7621",
+        "Jsp746/Certificate/Steps16.lean": "623f4f77203e81c7d3a8771e3826331e134f1b530606735e9c45a790a18bce16",
+        "Jsp746/Certificate/Steps17.lean": "d1b9beca3410dff8be332a565948e688118a17fad7e53d49be7bd20b2402f003",
+        "Jsp746/Certificate/Steps18.lean": "ae04d2c93f7682df09bdd8e0a46b11efa4b9585cf24c870a5025b888e221f7b2",
+        "Jsp746/Certificate/Steps19.lean": "2c0372b22ca00842dae07e203c7298cf4f8ecbdcef53b7f56124e0684b8229d3",
+        "Jsp746/Certificate/Steps20.lean": "a21829813e12322e86963da08e22c531c01c62b097261389e0003fc21d124d52",
+        "Jsp746/Certificate/Steps21.lean": "4df3ea0e508ea5ae0d50832ea166a21f880f60cc8bb9740bb89cbddcc782e98f",
+        "Jsp746/Certificate/Steps22.lean": "829f0c58b5534c666ca6b4fc90ce686bee772d44c13be3db153181e7dc8f4cce",
+        "Jsp746/Certificate/Steps23.lean": "39f03dec4de09505be187a2f9f7b1832b7eafd28b7115f2dc2fd3cf13fd49c29",
+        "Jsp746/Certificate/Steps24.lean": "f7478dd63e3408052dba5898da1f2006be64b9b6a03a6ce81c49085f8f7d05af",
+        "Jsp746/Certificate/Steps25.lean": "ba3bac211a597b274a9039b7972fa6d625101772ce7ea530808523930c7ed657",
+        "Jsp746/Certificate/Steps26.lean": "765778b0a57d065dbccfcb29b78cc7ff580e7eacecc2cb042f84ebabe323fefd",
+        "Jsp746/Certificate/Steps27.lean": "6d77fe07b7ebf3d4226d3d220c08dbff1e51a5d91a9411c89b2625ed85f6a3c4",
+        "Jsp746/Certificate/Steps28.lean": "318d7c4bf66b626e9d2d7aa10b0786615ef608e6252e6ef991887f39dd386380",
+        "Jsp746/Certificate/Steps29.lean": "5a11dc0b3442081e41918d1cd64f0483b2a9c6bfa62cec9049cd5d09e30628b8",
+        "Jsp746/Certificate/Steps30.lean": "78c76a5220e51612f656323f8315ec290f400668ecb1852f3af393d9e9af3c51",
+        "Jsp746/Graph.lean": "0496f81281cbd2abead583a316560457611c2098be8f02d6e10fc7887dea82fb",
+        "Jsp746/Main.lean": "d3cac5e794c5ac3874f630131bbb36b9fa0ce2513132caf2d681d83b5dada5ba",
+        "Jsp746/Refutation.lean": "5f70cc6d3cb305319aa00b5b0fc3865e53bbd7217c72ec51583f667d643cf04a",
+        "Jsp746/Witness.lean": "2b71a399e130ebec0de423e449e110a64b12f3afb3dca3f91903b020e43bf801",
+        "Jsp746.lean": "e773c01c577e6f19345bb41a412ee469d962a370b09c6ea62e8f7fbaeb3ae14a"
+      }
+    }
+  ]
+}

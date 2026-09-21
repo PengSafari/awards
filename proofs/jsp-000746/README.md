@@ -1,5 +1,7 @@
 # JSP-000746: independent Schur triples in triangle-free graphs
 
+> **Maintained in [PengSafari/awards](https://github.com/PengSafari/awards/tree/main/proofs/jsp-000746).** Run this project's commands from `proofs/jsp-000746/`. The [root matrix workflow](../../.github/workflows/verify-proofs.yml) verifies all three projects; the workflow YAML retained below this folder belongs to its original standalone history. Original pinned commits and verification records are preserved; see [migration and provenance](../../docs/proof-consolidation.md).
+
 This repository gives a complete Lean 4 proof of the integer-graph assertion in **JSP-000746 / [Erdős problem 895](https://www.erdosproblems.com/895)**, including the exact finite threshold **18** and an explicit obstruction on 17 vertices. The original affirmative answer and the upper bound of 18 remain credited to **Ben Barber**, as recorded on the problem page.
 
 This is a human-directed, AI-assisted formalization project. **PengSafari** directed the project and authorized submission; **OpenAI Codex** generated the implementation, certificates, and verification tooling and performed the recorded checks. See [NOTICE.md](NOTICE.md) for provenance and prior work. No mathematical discovery, first-formalization priority, edge-minimality, or award entitlement is claimed.
