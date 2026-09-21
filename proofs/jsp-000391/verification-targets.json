@@ -1,0 +1,13 @@
+{
+  "module": "Jsp391",
+  "scope": "Stoll 2005 Theorem 1.3: every base, positive real target, admissible shift, and digit position; digit bounds and reconstruction convergence",
+  "theorems": [
+    "Jsp391.jsp_000391",
+    "Jsp391.extraction",
+    "Jsp391.trajectory_pairs",
+    "Jsp391.normalized_bounds",
+    "Jsp391.partialSum_eq",
+    "Jsp391.reconstruction_tendsto",
+    "Jsp391.admissible_choice"
+  ]
+}
