@@ -1,0 +1,39 @@
+name: Verify complete JSP-000746 proof
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      LEAN_NUM_THREADS: 2
+      MATHLIB_NO_CACHE_ON_UPDATE: 1
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Install pinned Lean toolchain
+        uses: leanprover/lean-action@50fcf42d2e460296f1a34b402e990d1b24f8b596
+        with:
+          auto-config: "false"
+          build: "false"
+          test: "false"
+          lint: "false"
+          use-mathlib-cache: "false"
+          use-github-cache: "false"
+      - name: Fetch the required Mathlib cache
+        run: lake exe cache get Mathlib.Combinatorics.SimpleGraph.Clique Mathlib.Tactic.Tauto Mathlib.Tactic.NormNum
+      - name: Build, audit, replay, and cross-check
+        run: python3 verify.py --clean
+      - name: Save verification evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: jsp746-verification-${{ github.sha }}
+          path: verification/current/
+          retention-days: 90

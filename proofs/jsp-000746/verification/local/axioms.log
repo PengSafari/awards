@@ -1,0 +1,13 @@
+Jsp746.integer_graph (G : SimpleGraph ℤ) (hG : G.CliqueFree 3) :
+  ∃ a b, 0 < a ∧ a < b ∧ b < a + b ∧ a + b ≤ 18 ∧ ¬G.Adj a b ∧ ¬G.Adj a (a + b) ∧ ¬G.Adj b (a + b)
+Jsp746.finite_threshold (n : ℕ) : Jsp746.FiniteSchurProperty n ↔ 18 ≤ n
+'Jsp746.sat_refutation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp746.natural_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp746.integer_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp746.finite_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp746.finite_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp746.finite_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp746.witness_noTriangle' depends on axioms: [propext, Quot.sound]
+'Jsp746.witness_noSchurTriple' depends on axioms: [propext, Quot.sound]
+'Jsp746.seventeen_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Jsp746.witness_edge_count' depends on axioms: [propext, Classical.choice, Quot.sound]
